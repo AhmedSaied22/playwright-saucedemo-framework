@@ -134,7 +134,7 @@ Each test is enriched with:
 | Reset app state clear all cart items and reset buttons | ❌ Bug |
 
 **🎥 Bug Demonstration Video:**
-<video src="docs/videos/reset-app-state-bug.webm" controls="controls" muted="muted" style="max-width: 100%;"></video>
+[▶️ Click here to watch the bug video (`reset-app-state-bug.webm`)](./docs/videos/reset-app-state-bug.webm)
 
 > 📌 This test is **intentionally kept failing** to demonstrate:
 > - Bug detection
