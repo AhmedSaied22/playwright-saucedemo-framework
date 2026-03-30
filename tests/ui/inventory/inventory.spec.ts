@@ -116,7 +116,7 @@ test.describe('Inventory - SauceDemo', () => {
         'Known SauceDemo issue: Reset App State clears the cart badge but does not restore the product button back to Add to cart.',
     });
 
-    await inventoryPage.addProductToCart(4);
+    await inventoryPage.addProductToCart(1);
     await inventoryPage.resetAppState();
 
     await expect(inventoryPage.cartBadge).toBeHidden();

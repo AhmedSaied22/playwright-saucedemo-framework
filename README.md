@@ -133,6 +133,9 @@ Each test is enriched with:
 | Clears cart badge | ✔️ Works |
 | Reset app state clear all cart items and reset buttons | ❌ Bug |
 
+**🎥 Bug Demonstration Video:**
+<video src="docs/videos/reset-app-state-bug.webm" controls="controls" muted="muted" style="max-width: 100%;"></video>
+
 > 📌 This test is **intentionally kept failing** to demonstrate:
 > - Bug detection
 > - Real test validation
