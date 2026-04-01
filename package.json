@@ -8,15 +8,12 @@
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "test:auth": "playwright test tests/ui/auth/login.spec.ts",
-
+    "test:smoke": "playwright test --grep \"@smoke\"",
     "test:clean": "npm run results:clean && playwright test",
-
     "report:playwright": "playwright show-report",
-
     "report:allure": "allure serve allure-results",
     "report:allure:generate": "allure generate allure-results --clean -o allure-report",
     "report:allure:open": "allure open allure-report",
-
     "results:clean": "node ./scripts/clean-results.js"
   },
   "keywords": [

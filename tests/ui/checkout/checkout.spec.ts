@@ -32,7 +32,7 @@ test.describe('Checkout - SauceDemo', () => {
     await cartPage.assertCartPageLoaded();
 
     await cartPage.clickCheckout();
-    await checkoutStepOnePage.fillInformation('Ahmed', 'Emad', '12345');
+    await checkoutStepOnePage.fillInformation('Ahmed', 'Saied', '12345');
     await checkoutOverviewPage.finishOrder();
     await checkoutCompletePage.assertOrderCompleted();
   });
