@@ -14,7 +14,7 @@ export class LoginPage{
         this.errMessage = page.locator('[data-test="error"]');
     }
     async goTo(){
-        await this.page.goto('/');
+        await this.page.goto('/'); //direct from pw config
     }
     async login(username: string, password: string){
         await this.usernameInput.fill(username);
