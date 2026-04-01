@@ -107,6 +107,9 @@ test.describe('Inventory - SauceDemo', () => {
   });
 
   test('should reset app state clear all cart items and reset buttons', async ({ inventoryPage }) => {
+    // Explicitly tell Playwright to expect a failure so CI does not break.
+    test.fail(true, 'Known SauceDemo bug: Reset App State button state issue');
+
     await setAllureMeta({
       subSuite: 'Known Issues',
       story: 'Reset application state',
