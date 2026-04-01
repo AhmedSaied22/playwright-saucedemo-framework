@@ -1,5 +1,5 @@
 {
-  "name": "playwright-saucedemo-framework",
+  "name": "playwright-saucedemo-tests",
   "version": "1.0.0",
   "description": "UI test automation framework built with Playwright, TypeScript, POM, fixtures, and Allure reporting using SauceDemo.",
   "main": "index.js",
@@ -27,7 +27,7 @@
     "ui-testing",
     "typescript"
   ],
-  "author": "Ahmed Emad",
+  "author": "Ahmed Saied",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.58.2",
